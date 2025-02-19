@@ -15,6 +15,7 @@ int main() {
     char buffer[100];
     int buffer_index = 0;
     int turn = 0;
+    int iteration = 0;
 
     // Prompt the user to enter the filename
     printf("Enter the filename: ");
@@ -80,6 +81,7 @@ int main() {
             case 3:
                 sum4+=atof(buffer);
                 turn=0;
+                printf("iteration %d ended!\n", iteration);
                 break;
         }// Convert the buffer to a double and add to the sum
     }
@@ -90,7 +92,7 @@ int main() {
     // Print the sum of the numbers
     printf("1st: %.2f 2nd: %.2f 3rd: %.2f 4th: %.2f\n", sum1/100, sum2/100, sum3/100, sum4/100);
     sum = sum1+sum2+sum3+sum4;
-    printf("The sum of all numbers in the file is: %.2f\n", sum);
+    printf("The sum of all numbers in the file is: %.2f\n", sum/100);
 
     return 0;
 }

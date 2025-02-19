@@ -23,8 +23,8 @@ applications = {"VA"       : ["NR_DPUS=X NR_TASKLETS=Y BL=Z make all", "./bin/ho
 
 def run(app_name):
     
-    NR_DPUS = [1, 4, 16, 64]
-    NR_TASKLETS = [1, 2, 4, 8, 16]
+    NR_DPUS = [64]
+    NR_TASKLETS = [16]
     size = 1
     BL = [10] 
     if(app_name == "VA"):
