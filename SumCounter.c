@@ -1,13 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 int main() {
     FILE *file;
     char filename[100];
     char ch;
-    int sum = 0;
-    int num = 0;
+    double sum;
+    double sum1 = 0.0;
+    double sum2 = 0.0;
+    double sum3 = 0.0;
+    double sum4 = 0.0;
+    char buffer[100];
+    int buffer_index = 0;
+    int turn = 0;
 
     // Prompt the user to enter the filename
     printf("Enter the filename: ");
@@ -24,24 +31,66 @@ int main() {
 
     // Read the file character by character
     while ((ch = fgetc(file)) != EOF) {
-        if (isdigit(ch)) {
-            // If the character is a digit, build the number
-            num = num * 10 + (ch - '0');
+        // If the character is a digit or a decimal point, add it to the buffer
+        if (isdigit(ch) || ch == '.') {
+            buffer[buffer_index++] = ch;
         } else {
-            // If the character is not a digit, add the number to the sum
-            sum += num;
-            num = 0; // Reset the number for the next sequence of digits
+            // If the character is not part of a number, process the buffer
+            if (buffer_index > 0) {
+                buffer[buffer_index] = '\0'; // Null-terminate the buffer
+                switch(turn){
+                    case 0:
+                        sum1+=atof(buffer);
+                        ++turn;
+                        break;
+                    case 1:
+                        sum2+=atof(buffer);
+                        ++turn;
+                        break;
+                    case 2:
+                        sum3+=atof(buffer);
+                        ++turn;
+                        break;
+                    case 3:
+                        sum4+=atof(buffer);
+                        break;
+                        turn=0;
+                }// Convert the buffer to a double and add to the sum
+                buffer_index = 0;            // Reset the buffer index
+            }
         }
     }
 
-    // Add the last number in the file to the sum
-    sum += num;
+    // Process the last number in the file (if any)
+    if (buffer_index > 0) {
+        buffer[buffer_index] = '\0';
+        switch(turn){
+            case 0:
+                sum1+=atof(buffer);
+                ++turn;
+                break;
+            case 1:
+                sum2+=atof(buffer);
+                ++turn;
+                break;
+            case 2:
+                sum3+=atof(buffer);
+                ++turn;
+                break;
+            case 3:
+                sum4+=atof(buffer);
+                break;
+                turn=0;
+        }// Convert the buffer to a double and add to the sum
+    }
 
     // Close the file
     fclose(file);
 
     // Print the sum of the numbers
-    printf("The sum of all numbers in the file is: %d\n", sum);
+    printf("1st: %.2f 2nd: %.2f 3rd: %.2f 4th: %.2f\n", sum1, sum2, sum3, sum4);
+    sum = sum1+sum2+sum3+sum4;
+    printf("The sum of all numbers in the file is: %.2f\n", sum);
 
     return 0;
 }
