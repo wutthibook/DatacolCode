@@ -54,8 +54,12 @@ int main() {
                         break;
                     case 3:
                         sum4+=atof(buffer);
-                        turn=0;
+                        turn++;
                         break;
+                    case 4:
+                        turn++;
+                    case 5:
+                        turn = 0;
                 }// Convert the buffer to a double and add to the sum
                 buffer_index = 0;            // Reset the buffer index
             }

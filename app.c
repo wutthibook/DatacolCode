@@ -196,7 +196,7 @@ int main(int argc, char **argv) {
         if(C[i] != bufferC[i]){ 
             status = false;
 #if PRINT
-            printf("%d: %u -- %u\n", i, C[i], bufferC[i]);
+            //printf("%d: %u -- %u\n", i, C[i], bufferC[i]);
 #endif
         }
     }
