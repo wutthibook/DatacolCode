@@ -4,21 +4,27 @@ CC = gcc
 # Compiler flags
 CFLAGS = -Wall -Wextra -O2 -std=c99
 
-# Target executable
-TARGET = sum_numbers
+# Target executables
+TARGETS = sum_numbers sum_numbers_clean
 
-# Source files
-SRCS = sum_numbers.c
+# Source files for each target
+SRCS_sum_numbers = sum_numbers.c
+SRCS_sum_numbers_clean = sum_numbers_clean.c
 
-# Object files (automatically generated from source files)
-OBJS = $(SRCS:.c=.o)
+# Object files for each target
+OBJS_sum_numbers = $(SRCS_sum_numbers:.c=.o)
+OBJS_sum_numbers_clean = $(SRCS_sum_numbers_clean:.c=.o)
 
-# Default target
-all: $(TARGET)
+# Default target (build all executables)
+all: $(TARGETS)
 
-# Rule to build the target executable
-$(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
+# Rule to build sum_numbers
+sum_numbers: $(OBJS_sum_numbers)
+	$(CC) $(CFLAGS) -o $@ $^
+
+# Rule to build sum_numbers_clean
+sum_numbers_clean: $(OBJS_sum_numbers_clean)
+	$(CC) $(CFLAGS) -o $@ $^
 
 # Rule to compile .c files into .o files
 %.o: %.c
@@ -26,7 +32,7 @@ $(TARGET): $(OBJS)
 
 # Clean up build files
 clean:
-	rm -f $(OBJS) $(TARGET)
+	rm -f $(OBJS_sum_numbers) $(OBJS_sum_numbers_clean) $(TARGETS)
 
 # Phony targets (not actual files)
 .PHONY: all clean
