@@ -1,6 +1,6 @@
 /**
 * app.c
-* SEL Host Application Source File
+* UNI Host Application Source File
 *
 */
 #include <stdio.h>
@@ -36,18 +36,20 @@ static void read_input(T* A, unsigned int nr_elements, unsigned int nr_elements_
     //srand(0);
     for (unsigned int i = 0; i < nr_elements; i++) {
         //A[i] = (T) (rand());
-        A[i] = i + 1;
+        A[i] = i%2==0?i:i+1;
     }
-    for (unsigned int i = nr_elements; i < nr_elements_round; i++) { // Complete with removable elements
-        A[i] = 0;
+    for (unsigned int i = nr_elements; i < nr_elements_round; i++) {
+        A[i] = A[nr_elements - 1];
     }
 }
 
 // Compute output in the host
-static unsigned int select_host(T* C, T* A, unsigned int nr_elements) {
+static unsigned int unique_host(T* C, T* A, unsigned int nr_elements) {
     unsigned int pos = 0;
-    for (unsigned int i = 0; i < nr_elements; i++) {
-        if(!pred(A[i])) {
+    C[pos] = A[pos];
+    pos++;
+    for(unsigned int i = 1; i < nr_elements; i++) {
+        if(A[i] != A[i-1]) {
             C[pos] = A[i];
             pos++;
         }
@@ -95,13 +97,14 @@ int main(int argc, char **argv) {
     // Timer declaration
     Timer timer;
 
+
     // Loop over main kernel
     for(int rep = 0; rep < p.n_warmup + p.n_reps; rep++) {
 
         // Compute output on CPU (performance comparison and verification purposes)
         if(rep >= p.n_warmup)
             start(&timer, 0, rep - p.n_warmup);
-        total_count = select_host(C, A, input_size);
+        total_count = unique_host(C, A, input_size);
         if(rep >= p.n_warmup)
             stop(&timer, 0);
 
@@ -156,11 +159,13 @@ int main(int argc, char **argv) {
         printf("Retrieve results\n");
         dpu_results_t results[nr_of_dpus];
         uint32_t* results_scan = malloc(nr_of_dpus * sizeof(uint32_t));
+        uint32_t* offset = calloc(nr_of_dpus, sizeof(uint32_t));
+        uint32_t* offset_scan = calloc(nr_of_dpus, sizeof(uint32_t));
         i = 0;
         accum = 0;
 
         if(rep >= p.n_warmup)
-		    start(&timer, 3, rep - p.n_warmup);
+            start(&timer, 3, rep - p.n_warmup);
         // PARALLEL RETRIEVE TRANSFER
         dpu_results_t* results_retrieve[nr_of_dpus];
 
@@ -173,29 +178,41 @@ int main(int argc, char **argv) {
         DPU_FOREACH(dpu_set, dpu, i) {
             // Retrieve tasklet timings
             for (unsigned int each_tasklet = 0; each_tasklet < NR_TASKLETS; each_tasklet++) {
-                // Count of this DPU
+                // First output element of this DPU
+                if(each_tasklet == 0){
+                    results[i].first = results_retrieve[i][each_tasklet].first;
+                }
+                // Last output element of this DPU and count
                 if(each_tasklet == NR_TASKLETS - 1){
                     results[i].t_count = results_retrieve[i][each_tasklet].t_count;
+                    results[i].last = results_retrieve[i][each_tasklet].last;
                 }
             }
+            // Check if first(i) == last(i-1) -- offset
+            if(i != 0){
+                if(results[i].first == results[i - 1].last)
+                    offset[i] = 1;
+                // Sequential scan - offset
+                offset_scan[i] += offset[i];
+            }
             // Sequential scan
-            uint32_t temp = results[i].t_count;
+            uint32_t temp = results[i].t_count - offset[i];
             results_scan[i] = accum;
             accum += temp;
 #if PRINT
-            printf("i=%d -- %u,  %u, %u\n", i, results_scan[i], accum, temp);
+            printf("i=%d -- %u,  %u, %u -- %u\n", i, results_scan[i], accum, temp, offset_scan[i]);
 #endif
             free(results_retrieve[i]);
         }
         if(rep >= p.n_warmup)
-            stop(&timer, 3);
+		    stop(&timer, 3);
 
         i = 0;
         if(rep >= p.n_warmup)
             start(&timer, 4, rep - p.n_warmup);
         DPU_FOREACH (dpu_set, dpu) {
             // Copy output array
-            DPU_ASSERT(dpu_copy_from(dpu, DPU_MRAM_HEAP_POINTER_NAME, input_size_dpu * sizeof(T), bufferC + results_scan[i], results[i].t_count * sizeof(T)));
+            DPU_ASSERT(dpu_copy_from(dpu, DPU_MRAM_HEAP_POINTER_NAME, input_size_dpu * sizeof(T), bufferC + results_scan[i] - offset_scan[i], results[i].t_count * sizeof(T)));
 
             i++;
         }
@@ -204,6 +221,9 @@ int main(int argc, char **argv) {
 
         // Free memory
         free(results_scan);
+        free(offset);
+        free(offset_scan);
+
     }
 
     // Print timing results
@@ -218,15 +238,18 @@ int main(int argc, char **argv) {
     printf("DPU-CPU ");
     print(&timer, 4, p.n_reps);
 
-    #if ENERGY
+#if ENERGY
     double energy;
     DPU_ASSERT(dpu_probe_get(&probe, DPU_ENERGY, DPU_AVERAGE, &energy));
     printf("DPU Energy (J): %f\t", energy);
-    #endif	
+#endif	
 
     // Check output
     bool status = true;
     if(accum != total_count) status = false;
+#if PRINT
+    printf("accum %u, total_count %u\n", accum, total_count);
+#endif
     for (i = 0; i < accum; i++) {
         if(C[i] != bufferC[i]){ 
             status = false;
