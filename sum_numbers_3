@@ -72,10 +72,6 @@ int main() {
             case 2:
                 sum3+=atof(buffer);
                 ++turn;
-                break;
-            case 3:
-                sum4+=atof(buffer);
-                turn=0;
                 printf("iteration %d ended!\n", iteration);
                 break;
         }// Convert the buffer to a double and add to the sum
