@@ -1,13 +1,12 @@
 /**
 * app.c
-* HST-L Host Application Source File
+* RED Host Application Source File
 *
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include <math.h>
 #include <dpu.h>
 #include <dpu_log.h>
 #include <unistd.h>
@@ -29,48 +28,22 @@
 
 // Pointer declaration
 static T* A;
-static unsigned int* histo_host;
-static unsigned int* histo;
 
 // Create input arrays
-static void read_input(T* A, const Params p) {
-
-    char  dctFileName[100];
-    FILE *File = NULL;
-
-    // Open input file
-    unsigned short temp;
-    sprintf(dctFileName, p.file_name);
-    if((File = fopen(dctFileName, "rb")) != NULL) {
-        for(unsigned int y = 0; y < p.input_size; y++) {
-            fread(&temp, sizeof(unsigned short), 1, File);
-            A[y] = (unsigned int)ByteSwap16(temp);
-            if(A[y] >= 4096)
-                A[y] = 4095;
-        }
-        fclose(File);
-    } else {
-        printf("%s does not exist\n", dctFileName);
-        exit(1);
+static void read_input(T* A, unsigned int nr_elements) {
+    srand(0);
+    for (unsigned int i = 0; i < nr_elements; i++) {
+        A[i] = (T)(rand());
     }
 }
 
 // Compute output in the host
-static void histogram_host(unsigned int* histo, T* A, unsigned int bins, unsigned int nr_elements, int exp, unsigned int nr_of_dpus) {
-    if(!exp){
-        for (unsigned int i = 0; i < nr_of_dpus; i++) {
-            for (unsigned int j = 0; j < nr_elements; j++) {
-                T d = A[j];
-                histo[i * bins + ((d * bins) >> DEPTH)] += 1;
-            }
-        }
+static T reduction_host(T* A, unsigned int nr_elements) {
+    T count = 0;
+    for (unsigned int i = 0; i < nr_elements; i++) {
+        count += A[i];
     }
-    else{
-        for (unsigned int j = 0; j < nr_elements; j++) {
-            T d = A[j];
-            histo[(d * bins) >> DEPTH] += 1;
-        }
-    }
+    return count;
 }
 
 // Main of the Host Application
@@ -92,15 +65,12 @@ int main(int argc, char **argv) {
     DPU_ASSERT(dpu_get_nr_dpus(dpu_set, &nr_of_dpus));
 
     unsigned int i = 0;
-    unsigned int input_size; // Size of input image
-    unsigned int dpu_s = p.dpu_s;
-    if(p.exp == 0)
-        input_size = p.input_size * nr_of_dpus; // Size of input image
-    else if(p.exp == 1)
-        input_size = p.input_size; // Size of input image
-	else
-        input_size = p.input_size * dpu_s; // Size of input image
+#if PERF
+    double cc = 0;
+    double cc_min = 0;
+#endif
 
+    const unsigned int input_size = p.exp == 0 ? p.input_size * nr_of_dpus : p.input_size; // Total input size (weak or strong scaling)
     const unsigned int input_size_8bytes = 
         ((input_size * sizeof(T)) % 8) != 0 ? roundup(input_size, 8) : input_size; // Input size per DPU (max.), 8-byte aligned
     const unsigned int input_size_dpu = divceil(input_size, nr_of_dpus); // Input size per DPU (max.)
@@ -110,54 +80,38 @@ int main(int argc, char **argv) {
     // Input/output allocation
     A = malloc(input_size_dpu_8bytes * nr_of_dpus * sizeof(T));
     T *bufferA = A;
-    histo_host = malloc(p.bins * sizeof(unsigned int));
-    histo = malloc(nr_of_dpus * p.bins * sizeof(unsigned int));
+    T count = 0;
+    T count_host = 0;
 
     // Create an input file with arbitrary data
-    read_input(A, p);
-    if(p.exp == 0){
-        for(unsigned int j = 1; j < nr_of_dpus; j++){
-            memcpy(&A[j * input_size_dpu_8bytes], &A[0], input_size_dpu_8bytes * sizeof(T));
-        }
-    }
-    else if(p.exp == 2){
-        for(unsigned int j = 1; j < dpu_s; j++)
-            memcpy(&A[j * p.input_size], &A[0], p.input_size * sizeof(T));
-    }
+    read_input(A, input_size);
 
     // Timer declaration
     Timer timer;
 
     // Loop over main kernel
     for(int rep = 0; rep < p.n_warmup + p.n_reps; rep++) {
-        memset(histo_host, 0, p.bins * sizeof(unsigned int));
-        memset(histo, 0, nr_of_dpus * p.bins * sizeof(unsigned int));
 
         // Compute output on CPU (performance comparison and verification purposes)
         if(rep >= p.n_warmup)
             start(&timer, 0, rep - p.n_warmup);
-        histogram_host(histo_host, A, p.bins, p.input_size, 1, nr_of_dpus);
+        count_host = reduction_host(A, input_size);
         if(rep >= p.n_warmup)
             stop(&timer, 0);
 
         printf("Load input data\n");
         if(rep >= p.n_warmup)
             start(&timer, 1, rep - p.n_warmup);
+        count = 0;
         // Input arguments
         unsigned int kernel = 0;
-        i = 0;
-	    dpu_arguments_t input_arguments[NR_DPUS];
-	    for(i=0; i<nr_of_dpus-1; i++) {
-	        input_arguments[i].size=input_size_dpu_8bytes * sizeof(T); 
-	        input_arguments[i].transfer_size=input_size_dpu_8bytes * sizeof(T); 
-	        input_arguments[i].bins=p.bins;
-	        input_arguments[i].kernel=kernel;
-	    }
-	    input_arguments[nr_of_dpus-1].size=(input_size_8bytes - input_size_dpu_8bytes * (NR_DPUS-1)) * sizeof(T); 
-	    input_arguments[nr_of_dpus-1].transfer_size=input_size_dpu_8bytes * sizeof(T); 
-	    input_arguments[nr_of_dpus-1].bins=p.bins;
-	    input_arguments[nr_of_dpus-1].kernel=kernel;
-
+        dpu_arguments_t input_arguments[NR_DPUS];
+        for(i=0; i<nr_of_dpus-1; i++) {
+            input_arguments[i].size=input_size_dpu_8bytes * sizeof(T); 
+            input_arguments[i].kernel=kernel;
+        }
+        input_arguments[nr_of_dpus-1].size=(input_size_8bytes - input_size_dpu_8bytes * (NR_DPUS-1)) * sizeof(T); 
+        input_arguments[nr_of_dpus-1].kernel=kernel;		
         // Copy input arrays
         i = 0;
         DPU_FOREACH(dpu_set, dpu, i) {
@@ -179,6 +133,7 @@ int main(int argc, char **argv) {
             DPU_ASSERT(dpu_probe_start(&probe));
             #endif
         }
+ 
         DPU_ASSERT(dpu_launch(dpu_set, DPU_SYNCHRONOUS));
         if(rep >= p.n_warmup) {
             stop(&timer, 2);
@@ -200,25 +155,74 @@ int main(int argc, char **argv) {
 #endif
 
         printf("Retrieve results\n");
-        i = 0;
+        dpu_results_t results[nr_of_dpus];
+        T* results_count = malloc(nr_of_dpus * sizeof(T));
         if(rep >= p.n_warmup)
             start(&timer, 3, rep - p.n_warmup);
+        i = 0;
         // PARALLEL RETRIEVE TRANSFER
+        dpu_results_t* results_retrieve[nr_of_dpus];
+
         DPU_FOREACH(dpu_set, dpu, i) {
-            DPU_ASSERT(dpu_prepare_xfer(dpu, histo + p.bins * i));
+            results_retrieve[i] = (dpu_results_t*)malloc(NR_TASKLETS * sizeof(dpu_results_t));
+            DPU_ASSERT(dpu_prepare_xfer(dpu, results_retrieve[i]));
         }
-        DPU_ASSERT(dpu_push_xfer(dpu_set, DPU_XFER_FROM_DPU, DPU_MRAM_HEAP_POINTER_NAME, input_size_dpu_8bytes * sizeof(T), p.bins * sizeof(unsigned int), DPU_XFER_DEFAULT));
-		
-        // Final histogram merging
-        for(i = 1; i < nr_of_dpus; i++){
-            for(unsigned int j = 0; j < p.bins; j++){
-                histo[j] += histo[j + i * p.bins];
-            }			
-        }		
+        DPU_ASSERT(dpu_push_xfer(dpu_set, DPU_XFER_FROM_DPU, "DPU_RESULTS", 0, NR_TASKLETS * sizeof(dpu_results_t), DPU_XFER_DEFAULT));
+
+        DPU_FOREACH(dpu_set, dpu, i) {
+            // Retrieve tasklet timings
+            for (unsigned int each_tasklet = 0; each_tasklet < NR_TASKLETS; each_tasklet++) {
+                if(each_tasklet == 0)
+                    results[i].t_count = results_retrieve[i][each_tasklet].t_count;
+            }
+#if !PERF
+            free(results_retrieve[i]);
+#endif
+            // Sequential reduction
+            count += results[i].t_count;
+#if PRINT
+            printf("i=%d -- %lu\n", i, count);
+#endif
+        }
+
+#if PERF
+        DPU_FOREACH(dpu_set, dpu, i) {
+            results[i].cycles = 0;
+            // Retrieve tasklet timings
+            for (unsigned int each_tasklet = 0; each_tasklet < NR_TASKLETS; each_tasklet++) {
+                if (results_retrieve[i][each_tasklet].cycles > results[i].cycles)
+                    results[i].cycles = results_retrieve[i][each_tasklet].cycles;
+            }
+            free(results_retrieve[i]);
+        }
+#endif
         if(rep >= p.n_warmup)
             stop(&timer, 3);
 
+#if PERF
+        uint64_t max_cycles = 0;
+        uint64_t min_cycles = 0xFFFFFFFFFFFFFFFF;
+        // Print performance results
+        if(rep >= p.n_warmup){
+            i = 0;
+            DPU_FOREACH(dpu_set, dpu) {
+                if(results[i].cycles > max_cycles)
+                    max_cycles = results[i].cycles;
+                if(results[i].cycles < min_cycles)
+                    min_cycles = results[i].cycles;
+                i++;
+            }
+            cc += (double)max_cycles;
+            cc_min += (double)min_cycles;
+        }
+#endif
+
+        // Free memory
+        free(results_count);
     }
+#if PERF
+    printf("DPU cycles  = %g cc\n", cc / p.n_reps);
+#endif
 
     // Print timing results
     printf("CPU ");
@@ -227,7 +231,7 @@ int main(int argc, char **argv) {
     print(&timer, 1, p.n_reps);
     printf("DPU Kernel ");
     print(&timer, 2, p.n_reps);
-    printf("DPU-CPU ");
+    printf("Inter-DPU ");
     print(&timer, 3, p.n_reps);
 
     #if ENERGY
@@ -236,36 +240,9 @@ int main(int argc, char **argv) {
     printf("DPU Energy (J): %f\t", energy);
     #endif	
 
-
     // Check output
     bool status = true;
-    if(p.exp == 1) 
-        for (unsigned int j = 0; j < p.bins; j++) {
-            if(histo_host[j] != histo[j]){ 
-                status = false;
-#if PRINT
-                printf("%u - %u: %u -- %u\n", j, j, histo_host[j], histo[j]);
-#endif
-            }
-        }
-    else if(p.exp == 2) 
-        for (unsigned int j = 0; j < p.bins; j++) {
-            if(dpu_s * histo_host[j] != histo[j]){ 
-                status = false;
-#if PRINT
-                printf("%u - %u: %u -- %u\n", j, j, dpu_s * histo_host[j], histo[j]);
-#endif
-            }
-        }
-    else
-        for (unsigned int j = 0; j < p.bins; j++) {
-            if(nr_of_dpus * histo_host[j] != histo[j]){ 
-                status = false;
-#if PRINT
-                printf("%u - %u: %u -- %u\n", j, j, nr_of_dpus * histo_host[j], histo[j]);
-#endif
-            }
-        }
+    if(count != count_host) status = false;
     if (status) {
         printf("[" ANSI_COLOR_GREEN "OK" ANSI_COLOR_RESET "] Outputs are equal\n");
     } else {
@@ -274,8 +251,6 @@ int main(int argc, char **argv) {
 
     // Deallocation
     free(A);
-    free(histo_host);
-    free(histo);
     DPU_ASSERT(dpu_free(dpu_set));
 	
     return status ? 0 : -1;
