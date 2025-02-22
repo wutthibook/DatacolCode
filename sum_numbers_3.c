@@ -81,7 +81,7 @@ int main() {
     fclose(file);
 
     // Print the sum of the numbers
-    printf("1st: %.2f 2nd: %.2f 3rd: %.2f 4th: %.2f\n", sum1/100, sum2/100, sum3/100);
+    printf("1st: %.2f 2nd: %.2f 3rd: %.2f\n", sum1/100, sum2/100, sum3/100);
     sum = sum1+sum2+sum3;
     printf("The sum of all numbers in the file is: %.2f\n", sum/100);
 
