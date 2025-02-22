@@ -1,6 +1,6 @@
 /**
 * app.c
-* HST-S Host Application Source File
+* HST-L Host Application Source File
 *
 */
 #include <stdio.h>
@@ -98,7 +98,7 @@ int main(int argc, char **argv) {
         input_size = p.input_size * nr_of_dpus; // Size of input image
     else if(p.exp == 1)
         input_size = p.input_size; // Size of input image
-    else
+	else
         input_size = p.input_size * dpu_s; // Size of input image
 
     const unsigned int input_size_8bytes = 
@@ -179,7 +179,6 @@ int main(int argc, char **argv) {
             DPU_ASSERT(dpu_probe_start(&probe));
             #endif
         }
- 
         DPU_ASSERT(dpu_launch(dpu_set, DPU_SYNCHRONOUS));
         if(rep >= p.n_warmup) {
             stop(&timer, 2);
@@ -209,13 +208,13 @@ int main(int argc, char **argv) {
             DPU_ASSERT(dpu_prepare_xfer(dpu, histo + p.bins * i));
         }
         DPU_ASSERT(dpu_push_xfer(dpu_set, DPU_XFER_FROM_DPU, DPU_MRAM_HEAP_POINTER_NAME, input_size_dpu_8bytes * sizeof(T), p.bins * sizeof(unsigned int), DPU_XFER_DEFAULT));
-
+		
         // Final histogram merging
         for(i = 1; i < nr_of_dpus; i++){
             for(unsigned int j = 0; j < p.bins; j++){
                 histo[j] += histo[j + i * p.bins];
             }			
-        }
+        }		
         if(rep >= p.n_warmup)
             stop(&timer, 3);
 
@@ -236,6 +235,7 @@ int main(int argc, char **argv) {
     DPU_ASSERT(dpu_probe_get(&probe, DPU_ENERGY, DPU_AVERAGE, &energy));
     printf("DPU Energy (J): %f\t", energy);
     #endif	
+
 
     // Check output
     bool status = true;
