@@ -1,6 +1,6 @@
 /**
 * app.c
-* SCAN-SSA Host Application Source File
+* SCAN-RSS Host Application Source File
 *
 */
 #include <stdio.h>
@@ -153,14 +153,11 @@ int main(int argc, char **argv) {
         T* results_scan = malloc(nr_of_dpus * sizeof(T));
         i = 0;
         accum = 0;
-
+		
         if(rep >= p.n_warmup)
             start(&timer, 3, rep - p.n_warmup);
         // PARALLEL RETRIEVE TRANSFER
         dpu_results_t* results_retrieve[nr_of_dpus];
-
-        if(rep >= p.n_warmup)
-            start(&timer, 3, rep - p.n_warmup);
 
         DPU_FOREACH(dpu_set, dpu, i) {
             results_retrieve[i] = (dpu_results_t*)malloc(NR_TASKLETS * sizeof(dpu_results_t));
@@ -171,7 +168,7 @@ int main(int argc, char **argv) {
         DPU_FOREACH(dpu_set, dpu, i) {
             // Retrieve tasklet timings
             for (unsigned int each_tasklet = 0; each_tasklet < NR_TASKLETS; each_tasklet++) {
-                if(each_tasklet == NR_TASKLETS - 1)
+                if(each_tasklet == 0)
                     results[i].t_count = results_retrieve[i][each_tasklet].t_count;
             }
             free(results_retrieve[i]);
@@ -184,7 +181,7 @@ int main(int argc, char **argv) {
 #endif
         }
 
-        // Arguments for add kernel (2nd kernel)
+        // Arguments for scan kernel (2nd kernel)
         kernel = 1;
         dpu_arguments_t input_arguments_2[NR_DPUS];
         for(i=0; i<nr_of_dpus; i++) {
@@ -214,7 +211,6 @@ int main(int argc, char **argv) {
             DPU_ASSERT(dpu_probe_stop(&probe));
             #endif
         }
-
 #if PRINT
         {
             unsigned int each_dpu = 0;
@@ -248,11 +244,11 @@ int main(int argc, char **argv) {
     print(&timer, 0, p.n_reps);
     printf("CPU-DPU ");
     print(&timer, 1, p.n_reps);
-    printf("DPU Kernel Scan ");
+    printf("DPU Kernel Reduction ");
     print(&timer, 2, p.n_reps);
     printf("Inter-DPU (Scan) ");
     print(&timer, 3, p.n_reps);
-    printf("DPU Kernel Add ");
+    printf("DPU Kernel Scan ");
     print(&timer, 4, p.n_reps);
     printf("DPU-CPU ");
     print(&timer, 5, p.n_reps);
