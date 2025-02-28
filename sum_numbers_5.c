@@ -19,7 +19,7 @@ int main() {
     int iteration = 0;
 
     // Prompt the user to enter the filename
-    printf("Enter the filename: ");
+    //printf("Enter the filename: ");
     scanf("%s", filename);
 
     // Open the file in read mode
@@ -61,7 +61,7 @@ int main() {
                     case 4:
                         sum5+=atof(buffer);
                         turn++;
-                        printf(".%2f\n",sum);
+                        printf("%.2f\n",sum);
                         sum = 0.0;
                         break;
                     case 5:
@@ -96,7 +96,7 @@ int main() {
                 sum4+=atof(buffer);
                 turn=0;
                 sum+=atof(buffer);
-                printf(".%2f\n",sum);
+                printf("%.2f\n",sum);
                 break;
         }// Convert the buffer to a double and add to the sum
     }
