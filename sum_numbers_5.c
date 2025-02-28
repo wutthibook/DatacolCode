@@ -40,27 +40,30 @@ int main() {
             // If the character is not part of a number, process the buffer
             if (buffer_index > 0) {
                 buffer[buffer_index] = '\0'; // Null-terminate the buffer
-                sum+=atof(buffer);
                 switch(turn){
                     case 0:
                         sum1+=atof(buffer);
-                        sum-=atof(buffer);
+                        sum+=atof(buffer);
                         ++turn;
                         break;
                     case 1:
                         sum2+=atof(buffer);
+                        sum+=atof(buffer);
                         ++turn;
                         break;
                     case 2:
                         sum3+=atof(buffer);
+                        sum+=atof(buffer);
                         ++turn;
                         break;
                     case 3:
                         sum4+=atof(buffer);
+                        sum+=atof(buffer);
                         turn++;
                         break;
                     case 4:
                         sum5+=atof(buffer);
+                        sum+=atof(buffer);
                         turn++;
                         printf("%.2f\n",sum);
                         sum = 0.0;
