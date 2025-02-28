@@ -38,6 +38,7 @@ int main() {
             // If the character is not part of a number, process the buffer
             if (buffer_index > 0) {
                 buffer[buffer_index] = '\0'; // Null-terminate the buffer
+                sum+=atof(buffer);
                 switch(turn){
                     case 0:
                         sum1+=atof(buffer);
@@ -50,6 +51,8 @@ int main() {
                     case 2:
                         sum3+=atof(buffer);
                         turn = 0;
+                        printf(".%2f\n",sum);
+                        sum = 0.0;
                         break;
                 }// Convert the buffer to a double and add to the sum
                 buffer_index = 0;            // Reset the buffer index
@@ -72,7 +75,8 @@ int main() {
             case 2:
                 sum3+=atof(buffer);
                 ++turn;
-                printf("iteration %d ended!\n", iteration);
+                sum+=atof(buffer);
+                printf(".%2f\n",sum);
                 break;
         }// Convert the buffer to a double and add to the sum
     }
@@ -81,9 +85,11 @@ int main() {
     fclose(file);
 
     // Print the sum of the numbers
+    /*
     printf("1st: %.2f 2nd: %.2f 3rd: %.2f\n", sum1/100, sum2/100, sum3/100);
     sum = sum1+sum2+sum3;
     printf("The sum of all numbers in the file is: %.2f\n", sum/100);
+    */
 
     return 0;
 }
