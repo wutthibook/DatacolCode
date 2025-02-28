@@ -43,7 +43,6 @@ int main() {
                 switch(turn){
                     case 0:
                         sum1+=atof(buffer);
-                        sum+=atof(buffer);
                         ++turn;
                         break;
                     case 1:
