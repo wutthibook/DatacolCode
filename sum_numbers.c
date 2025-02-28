@@ -43,6 +43,7 @@ int main() {
                 switch(turn){
                     case 0:
                         sum1+=atof(buffer);
+                        sum-=atof(buffer);
                         ++turn;
                         break;
                     case 1:
@@ -74,8 +75,6 @@ int main() {
     // Process the last number in the file (if any)
     if (buffer_index > 0) {
         buffer[buffer_index] = '\0';
-        sum+=atof(buffer);
-        printf(".%2f\n",sum);
         switch(turn){
             case 0:
                 sum1+=atof(buffer);
