@@ -98,8 +98,13 @@ int main() {
             case 3:
                 sum4+=atof(buffer);
                 turn=0;
+                break;
+            case 4:
+                sum5+=atof(buffer);
                 sum+=atof(buffer);
+                turn++;
                 printf("%.2f\n",sum);
+                sum = 0.0;
                 break;
         }// Convert the buffer to a double and add to the sum
     }
