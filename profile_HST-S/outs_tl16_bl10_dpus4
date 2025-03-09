@@ -1,0 +1,400 @@
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.767000	CPU-DPU Time (ms): 9.726000	DPU Kernel Time (ms): 33.121000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.239000	CPU-DPU Time (ms): 9.355000	DPU Kernel Time (ms): 33.120000	DPU-CPU Time (ms): 0.139000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.934000	CPU-DPU Time (ms): 9.826000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.781000	CPU-DPU Time (ms): 9.656000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.138000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.727000	CPU-DPU Time (ms): 9.599000	DPU Kernel Time (ms): 33.111000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.107000	CPU-DPU Time (ms): 9.252000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.846000	CPU-DPU Time (ms): 9.742000	DPU Kernel Time (ms): 33.129000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.951000	CPU-DPU Time (ms): 9.266000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.285000	CPU-DPU Time (ms): 9.930000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.042000	CPU-DPU Time (ms): 9.421000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.143000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.198000	CPU-DPU Time (ms): 9.959000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.286000	CPU-DPU Time (ms): 9.372000	DPU Kernel Time (ms): 33.126000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.710000	CPU-DPU Time (ms): 9.114000	DPU Kernel Time (ms): 33.120000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.307000	CPU-DPU Time (ms): 9.852000	DPU Kernel Time (ms): 33.120000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.347000	CPU-DPU Time (ms): 9.412000	DPU Kernel Time (ms): 33.126000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.518000	CPU-DPU Time (ms): 9.099000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.144000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.717000	CPU-DPU Time (ms): 9.074000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.261000	CPU-DPU Time (ms): 8.913000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.819000	CPU-DPU Time (ms): 9.253000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.112000	CPU-DPU Time (ms): 9.872000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.946000	CPU-DPU Time (ms): 9.278000	DPU Kernel Time (ms): 33.125000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.946000	CPU-DPU Time (ms): 9.318000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.406000	CPU-DPU Time (ms): 9.021000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.138000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.737000	CPU-DPU Time (ms): 9.638000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.138000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.833000	CPU-DPU Time (ms): 9.628000	DPU Kernel Time (ms): 33.113000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.783000	CPU-DPU Time (ms): 9.031000	DPU Kernel Time (ms): 33.112000	DPU-CPU Time (ms): 0.130000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.064000	CPU-DPU Time (ms): 9.754000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.514000	CPU-DPU Time (ms): 9.554000	DPU Kernel Time (ms): 33.126000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.741000	CPU-DPU Time (ms): 9.191000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.516000	CPU-DPU Time (ms): 9.352000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.284000	CPU-DPU Time (ms): 9.017000	DPU Kernel Time (ms): 33.123000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.750000	CPU-DPU Time (ms): 9.306000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.832000	CPU-DPU Time (ms): 9.127000	DPU Kernel Time (ms): 33.108000	DPU-CPU Time (ms): 0.151000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.548000	CPU-DPU Time (ms): 9.495000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.922000	CPU-DPU Time (ms): 9.732000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.121000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.813000	CPU-DPU Time (ms): 9.136000	DPU Kernel Time (ms): 33.113000	DPU-CPU Time (ms): 0.152000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.046000	CPU-DPU Time (ms): 9.353000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.139000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.548000	CPU-DPU Time (ms): 8.901000	DPU Kernel Time (ms): 33.111000	DPU-CPU Time (ms): 0.131000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.109000	CPU-DPU Time (ms): 9.246000	DPU Kernel Time (ms): 33.121000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.294000	CPU-DPU Time (ms): 9.031000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.703000	CPU-DPU Time (ms): 9.146000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.129000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.094000	CPU-DPU Time (ms): 9.879000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.138000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.684000	CPU-DPU Time (ms): 8.992000	DPU Kernel Time (ms): 33.111000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.882000	CPU-DPU Time (ms): 9.769000	DPU Kernel Time (ms): 33.126000	DPU-CPU Time (ms): 0.142000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.263000	CPU-DPU Time (ms): 9.314000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.530000	CPU-DPU Time (ms): 9.641000	DPU Kernel Time (ms): 33.114000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.709000	CPU-DPU Time (ms): 9.108000	DPU Kernel Time (ms): 33.110000	DPU-CPU Time (ms): 0.148000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.020000	CPU-DPU Time (ms): 9.331000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.388000	CPU-DPU Time (ms): 8.945000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.087000	CPU-DPU Time (ms): 9.914000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.821000	CPU-DPU Time (ms): 9.627000	DPU Kernel Time (ms): 33.113000	DPU-CPU Time (ms): 0.129000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.145000	CPU-DPU Time (ms): 9.835000	DPU Kernel Time (ms): 33.124000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.251000	CPU-DPU Time (ms): 9.953000	DPU Kernel Time (ms): 33.113000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.262000	CPU-DPU Time (ms): 9.387000	DPU Kernel Time (ms): 33.117000	DPU-CPU Time (ms): 0.130000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.230000	CPU-DPU Time (ms): 9.954000	DPU Kernel Time (ms): 33.121000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.204000	CPU-DPU Time (ms): 9.260000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.046000	CPU-DPU Time (ms): 9.369000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.294000	CPU-DPU Time (ms): 9.344000	DPU Kernel Time (ms): 33.121000	DPU-CPU Time (ms): 0.131000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.716000	CPU-DPU Time (ms): 9.044000	DPU Kernel Time (ms): 33.109000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.644000	CPU-DPU Time (ms): 9.617000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.492000	CPU-DPU Time (ms): 9.362000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.067000	CPU-DPU Time (ms): 9.318000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.834000	CPU-DPU Time (ms): 9.216000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.107000	CPU-DPU Time (ms): 9.241000	DPU Kernel Time (ms): 33.122000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.203000	CPU-DPU Time (ms): 9.424000	DPU Kernel Time (ms): 33.121000	DPU-CPU Time (ms): 0.131000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.276000	CPU-DPU Time (ms): 9.855000	DPU Kernel Time (ms): 33.127000	DPU-CPU Time (ms): 0.131000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.288000	CPU-DPU Time (ms): 10.015000	DPU Kernel Time (ms): 33.130000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.651000	CPU-DPU Time (ms): 9.472000	DPU Kernel Time (ms): 33.116000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.172000	CPU-DPU Time (ms): 9.544000	DPU Kernel Time (ms): 33.123000	DPU-CPU Time (ms): 0.142000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.690000	CPU-DPU Time (ms): 9.751000	DPU Kernel Time (ms): 33.126000	DPU-CPU Time (ms): 0.139000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.379000	CPU-DPU Time (ms): 9.984000	DPU Kernel Time (ms): 33.127000	DPU-CPU Time (ms): 0.139000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.841000	CPU-DPU Time (ms): 9.183000	DPU Kernel Time (ms): 33.114000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.886000	CPU-DPU Time (ms): 9.094000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.826000	CPU-DPU Time (ms): 9.679000	DPU Kernel Time (ms): 33.125000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.545000	CPU-DPU Time (ms): 9.513000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.385000	CPU-DPU Time (ms): 9.471000	DPU Kernel Time (ms): 33.109000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.525000	CPU-DPU Time (ms): 9.426000	DPU Kernel Time (ms): 33.114000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.636000	CPU-DPU Time (ms): 9.603000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.206000	CPU-DPU Time (ms): 9.980000	DPU Kernel Time (ms): 33.123000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.016000	CPU-DPU Time (ms): 9.237000	DPU Kernel Time (ms): 33.112000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.088000	CPU-DPU Time (ms): 9.454000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.138000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.659000	CPU-DPU Time (ms): 9.177000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.163000	CPU-DPU Time (ms): 9.903000	DPU Kernel Time (ms): 33.125000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.264000	CPU-DPU Time (ms): 9.283000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.474000	CPU-DPU Time (ms): 9.418000	DPU Kernel Time (ms): 33.121000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.865000	CPU-DPU Time (ms): 9.261000	DPU Kernel Time (ms): 33.107000	DPU-CPU Time (ms): 0.134000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.273000	CPU-DPU Time (ms): 9.015000	DPU Kernel Time (ms): 33.105000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.119000	CPU-DPU Time (ms): 9.513000	DPU Kernel Time (ms): 33.125000	DPU-CPU Time (ms): 0.141000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.980000	CPU-DPU Time (ms): 9.890000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.138000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.191000	CPU-DPU Time (ms): 9.915000	DPU Kernel Time (ms): 33.119000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.824000	CPU-DPU Time (ms): 9.563000	DPU Kernel Time (ms): 33.114000	DPU-CPU Time (ms): 0.135000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.881000	CPU-DPU Time (ms): 9.045000	DPU Kernel Time (ms): 33.112000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.757000	CPU-DPU Time (ms): 9.206000	DPU Kernel Time (ms): 33.112000	DPU-CPU Time (ms): 0.146000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.936000	CPU-DPU Time (ms): 9.692000	DPU Kernel Time (ms): 33.115000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 5.330000	CPU-DPU Time (ms): 10.063000	DPU Kernel Time (ms): 33.128000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.898000	CPU-DPU Time (ms): 9.196000	DPU Kernel Time (ms): 33.128000	DPU-CPU Time (ms): 0.133000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.294000	CPU-DPU Time (ms): 9.073000	DPU Kernel Time (ms): 33.114000	DPU-CPU Time (ms): 0.132000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.922000	CPU-DPU Time (ms): 9.753000	DPU Kernel Time (ms): 33.118000	DPU-CPU Time (ms): 0.137000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 3.867000	CPU-DPU Time (ms): 9.188000	DPU Kernel Time (ms): 33.112000	DPU-CPU Time (ms): 0.131000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 4.518000	CPU-DPU Time (ms): 9.576000	DPU Kernel Time (ms): 33.125000	DPU-CPU Time (ms): 0.136000	[[32mOK[0m] Outputs are equal

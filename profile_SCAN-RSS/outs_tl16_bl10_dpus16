@@ -1,0 +1,600 @@
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.756000	CPU-DPU Time (ms): 38.962000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 55.773000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.866000	CPU-DPU Time (ms): 39.844000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.274000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 55.993000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.407000	CPU-DPU Time (ms): 42.145000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 53.215000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.339000	CPU-DPU Time (ms): 41.648000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 56.324000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.935000	CPU-DPU Time (ms): 41.158000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.584000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.165000	CPU-DPU Time (ms): 42.622000	DPU Kernel Reduction Time (ms): 3.470000	Inter-DPU (Scan) Time (ms): 0.262000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 56.960000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.054000	CPU-DPU Time (ms): 41.923000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 53.626000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.804000	CPU-DPU Time (ms): 41.047000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 58.190000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.333000	CPU-DPU Time (ms): 42.038000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.280000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 56.906000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.334000	CPU-DPU Time (ms): 36.633000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.276000	DPU Kernel Scan Time (ms): 11.420000	DPU-CPU Time (ms): 57.157000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.311000	CPU-DPU Time (ms): 41.195000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.701000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.583000	CPU-DPU Time (ms): 39.111000	DPU Kernel Reduction Time (ms): 3.467000	Inter-DPU (Scan) Time (ms): 0.273000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 57.753000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.842000	CPU-DPU Time (ms): 41.816000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.757000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.014000	CPU-DPU Time (ms): 40.830000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 56.046000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.858000	CPU-DPU Time (ms): 42.070000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 55.861000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.359000	CPU-DPU Time (ms): 42.018000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 58.222000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.183000	CPU-DPU Time (ms): 41.831000	DPU Kernel Reduction Time (ms): 3.468000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 57.019000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.422000	CPU-DPU Time (ms): 41.437000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 55.459000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.456000	CPU-DPU Time (ms): 42.313000	DPU Kernel Reduction Time (ms): 3.477000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 54.640000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.600000	CPU-DPU Time (ms): 41.611000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 59.308000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.877000	CPU-DPU Time (ms): 40.084000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.277000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 56.729000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.438000	CPU-DPU Time (ms): 39.232000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 55.007000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.437000	CPU-DPU Time (ms): 40.387000	DPU Kernel Reduction Time (ms): 3.467000	Inter-DPU (Scan) Time (ms): 0.257000	DPU Kernel Scan Time (ms): 11.425000	DPU-CPU Time (ms): 56.279000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.078000	CPU-DPU Time (ms): 40.512000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 59.258000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.827000	CPU-DPU Time (ms): 40.626000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 56.632000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.459000	CPU-DPU Time (ms): 38.603000	DPU Kernel Reduction Time (ms): 3.472000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.413000	DPU-CPU Time (ms): 55.083000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.021000	CPU-DPU Time (ms): 40.429000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.270000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 54.601000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.047000	CPU-DPU Time (ms): 39.253000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 59.394000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.046000	CPU-DPU Time (ms): 40.575000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 56.702000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.052000	CPU-DPU Time (ms): 41.325000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.277000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 55.032000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.207000	CPU-DPU Time (ms): 41.385000	DPU Kernel Reduction Time (ms): 3.464000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 54.596000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.734000	CPU-DPU Time (ms): 42.105000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 59.199000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.843000	CPU-DPU Time (ms): 41.429000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.427000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.548000	CPU-DPU Time (ms): 41.338000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.263000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 55.495000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.942000	CPU-DPU Time (ms): 41.084000	DPU Kernel Reduction Time (ms): 3.467000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 54.232000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.403000	CPU-DPU Time (ms): 42.121000	DPU Kernel Reduction Time (ms): 3.468000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.678000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.841000	CPU-DPU Time (ms): 40.442000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 55.975000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.110000	CPU-DPU Time (ms): 40.602000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 56.854000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.572000	CPU-DPU Time (ms): 43.016000	DPU Kernel Reduction Time (ms): 3.464000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 54.368000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.333000	CPU-DPU Time (ms): 39.555000	DPU Kernel Reduction Time (ms): 3.457000	Inter-DPU (Scan) Time (ms): 0.276000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.708000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.315000	CPU-DPU Time (ms): 41.277000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 55.756000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.315000	CPU-DPU Time (ms): 40.480000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 57.094000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.908000	CPU-DPU Time (ms): 41.977000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 55.602000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.308000	CPU-DPU Time (ms): 40.147000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 56.577000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.430000	CPU-DPU Time (ms): 39.571000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.259000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 54.950000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.506000	CPU-DPU Time (ms): 40.956000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 56.316000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.406000	CPU-DPU Time (ms): 40.284000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 56.110000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.890000	CPU-DPU Time (ms): 41.583000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 57.243000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.470000	CPU-DPU Time (ms): 42.637000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 56.835000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.920000	CPU-DPU Time (ms): 39.631000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 55.840000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.358000	CPU-DPU Time (ms): 40.391000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 55.973000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.023000	CPU-DPU Time (ms): 38.409000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 57.509000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.282000	CPU-DPU Time (ms): 38.104000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.259000	DPU Kernel Scan Time (ms): 11.428000	DPU-CPU Time (ms): 56.864000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.979000	CPU-DPU Time (ms): 42.370000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 55.878000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.405000	CPU-DPU Time (ms): 37.914000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.262000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 56.033000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.521000	CPU-DPU Time (ms): 38.846000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 57.457000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.262000	CPU-DPU Time (ms): 39.506000	DPU Kernel Reduction Time (ms): 3.459000	Inter-DPU (Scan) Time (ms): 0.279000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 57.122000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.458000	CPU-DPU Time (ms): 38.089000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.424000	DPU-CPU Time (ms): 56.466000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.889000	CPU-DPU Time (ms): 39.956000	DPU Kernel Reduction Time (ms): 3.468000	Inter-DPU (Scan) Time (ms): 0.277000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 55.832000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.293000	CPU-DPU Time (ms): 38.687000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 58.469000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.436000	CPU-DPU Time (ms): 37.851000	DPU Kernel Reduction Time (ms): 3.459000	Inter-DPU (Scan) Time (ms): 0.257000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 56.255000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.391000	CPU-DPU Time (ms): 41.313000	DPU Kernel Reduction Time (ms): 3.477000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 55.042000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.290000	CPU-DPU Time (ms): 39.475000	DPU Kernel Reduction Time (ms): 3.467000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.349000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.234000	CPU-DPU Time (ms): 41.558000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 57.051000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.397000	CPU-DPU Time (ms): 37.121000	DPU Kernel Reduction Time (ms): 3.468000	Inter-DPU (Scan) Time (ms): 0.261000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.914000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.444000	CPU-DPU Time (ms): 42.186000	DPU Kernel Reduction Time (ms): 3.467000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 53.729000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.844000	CPU-DPU Time (ms): 41.367000	DPU Kernel Reduction Time (ms): 3.461000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 58.833000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.850000	CPU-DPU Time (ms): 41.511000	DPU Kernel Reduction Time (ms): 3.459000	Inter-DPU (Scan) Time (ms): 0.262000	DPU Kernel Scan Time (ms): 11.420000	DPU-CPU Time (ms): 56.507000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.132000	CPU-DPU Time (ms): 40.301000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 55.435000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.832000	CPU-DPU Time (ms): 37.243000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.260000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 55.928000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.407000	CPU-DPU Time (ms): 39.540000	DPU Kernel Reduction Time (ms): 3.468000	Inter-DPU (Scan) Time (ms): 0.269000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 58.530000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.810000	CPU-DPU Time (ms): 40.356000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 55.448000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.262000	CPU-DPU Time (ms): 37.315000	DPU Kernel Reduction Time (ms): 3.458000	Inter-DPU (Scan) Time (ms): 0.261000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 56.754000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.535000	CPU-DPU Time (ms): 39.643000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 57.690000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.284000	CPU-DPU Time (ms): 39.713000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 53.348000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.280000	CPU-DPU Time (ms): 41.384000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 53.766000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.534000	CPU-DPU Time (ms): 38.693000	DPU Kernel Reduction Time (ms): 3.467000	Inter-DPU (Scan) Time (ms): 0.260000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 54.196000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.833000	CPU-DPU Time (ms): 41.791000	DPU Kernel Reduction Time (ms): 3.454000	Inter-DPU (Scan) Time (ms): 0.262000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 53.746000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.438000	CPU-DPU Time (ms): 39.428000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.269000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 53.753000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.024000	CPU-DPU Time (ms): 39.284000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.257000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 53.732000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.381000	CPU-DPU Time (ms): 38.679000	DPU Kernel Reduction Time (ms): 3.454000	Inter-DPU (Scan) Time (ms): 0.271000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 54.142000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.960000	CPU-DPU Time (ms): 41.073000	DPU Kernel Reduction Time (ms): 3.472000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 53.644000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.972000	CPU-DPU Time (ms): 41.076000	DPU Kernel Reduction Time (ms): 3.473000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.415000	DPU-CPU Time (ms): 53.847000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.855000	CPU-DPU Time (ms): 42.250000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 53.839000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.015000	CPU-DPU Time (ms): 39.304000	DPU Kernel Reduction Time (ms): 3.472000	Inter-DPU (Scan) Time (ms): 0.264000	DPU Kernel Scan Time (ms): 11.416000	DPU-CPU Time (ms): 55.514000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.003000	CPU-DPU Time (ms): 40.749000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 53.632000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.865000	CPU-DPU Time (ms): 39.426000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.270000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 53.867000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.838000	CPU-DPU Time (ms): 38.145000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.260000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 54.091000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.839000	CPU-DPU Time (ms): 38.548000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.268000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 54.258000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.607000	CPU-DPU Time (ms): 40.125000	DPU Kernel Reduction Time (ms): 3.474000	Inter-DPU (Scan) Time (ms): 0.282000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 54.280000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.039000	CPU-DPU Time (ms): 37.304000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.188000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.443000	CPU-DPU Time (ms): 40.401000	DPU Kernel Reduction Time (ms): 3.466000	Inter-DPU (Scan) Time (ms): 0.263000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 56.881000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.423000	CPU-DPU Time (ms): 38.846000	DPU Kernel Reduction Time (ms): 3.469000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 56.366000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.727000	CPU-DPU Time (ms): 39.220000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 53.833000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.348000	CPU-DPU Time (ms): 36.753000	DPU Kernel Reduction Time (ms): 3.465000	Inter-DPU (Scan) Time (ms): 0.261000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 55.445000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.969000	CPU-DPU Time (ms): 37.946000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.266000	DPU Kernel Scan Time (ms): 11.418000	DPU-CPU Time (ms): 57.000000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.329000	CPU-DPU Time (ms): 38.276000	DPU Kernel Reduction Time (ms): 3.470000	Inter-DPU (Scan) Time (ms): 0.259000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 54.661000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.979000	CPU-DPU Time (ms): 39.212000	DPU Kernel Reduction Time (ms): 3.462000	Inter-DPU (Scan) Time (ms): 0.269000	DPU Kernel Scan Time (ms): 11.414000	DPU-CPU Time (ms): 56.732000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 23.978000	CPU-DPU Time (ms): 41.346000	DPU Kernel Reduction Time (ms): 3.460000	Inter-DPU (Scan) Time (ms): 0.265000	DPU Kernel Scan Time (ms): 11.419000	DPU-CPU Time (ms): 55.812000	[[32mOK[0m] Outputs are equal
+Load input data
+Run program on DPU(s) 
+Retrieve results
+Run program on DPU(s) 
+Retrieve results
+CPU Time (ms): 24.651000	CPU-DPU Time (ms): 40.177000	DPU Kernel Reduction Time (ms): 3.463000	Inter-DPU (Scan) Time (ms): 0.267000	DPU Kernel Scan Time (ms): 11.417000	DPU-CPU Time (ms): 58.615000	[[32mOK[0m] Outputs are equal

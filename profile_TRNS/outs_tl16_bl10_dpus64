@@ -1,0 +1,500 @@
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3376.970000	CPU-DPU (First step) Time (ms): 11341.850000	Secondth step Time (ms): 236.076000	Third step Time (ms): 175.158000	DPU-CPU Time (ms): 390.312000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3367.303000	CPU-DPU (First step) Time (ms): 11727.068000	Secondth step Time (ms): 236.204000	Third step Time (ms): 175.187000	DPU-CPU Time (ms): 408.034000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3387.259000	CPU-DPU (First step) Time (ms): 11470.565000	Secondth step Time (ms): 236.192000	Third step Time (ms): 175.220000	DPU-CPU Time (ms): 405.759000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3375.927000	CPU-DPU (First step) Time (ms): 11484.491000	Secondth step Time (ms): 236.071000	Third step Time (ms): 175.201000	DPU-CPU Time (ms): 383.992000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3390.437000	CPU-DPU (First step) Time (ms): 11986.657000	Secondth step Time (ms): 236.072000	Third step Time (ms): 175.139000	DPU-CPU Time (ms): 399.807000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3360.923000	CPU-DPU (First step) Time (ms): 11508.392000	Secondth step Time (ms): 236.157000	Third step Time (ms): 175.093000	DPU-CPU Time (ms): 409.041000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3389.278000	CPU-DPU (First step) Time (ms): 11723.279000	Secondth step Time (ms): 236.214000	Third step Time (ms): 175.223000	DPU-CPU Time (ms): 385.656000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3356.169000	CPU-DPU (First step) Time (ms): 11752.421000	Secondth step Time (ms): 236.163000	Third step Time (ms): 175.099000	DPU-CPU Time (ms): 398.389000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3366.920000	CPU-DPU (First step) Time (ms): 11614.520000	Secondth step Time (ms): 236.039000	Third step Time (ms): 175.152000	DPU-CPU Time (ms): 389.150000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3356.116000	CPU-DPU (First step) Time (ms): 11443.382000	Secondth step Time (ms): 236.091000	Third step Time (ms): 175.196000	DPU-CPU Time (ms): 409.014000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3391.934000	CPU-DPU (First step) Time (ms): 11123.820000	Secondth step Time (ms): 236.055000	Third step Time (ms): 175.156000	DPU-CPU Time (ms): 399.311000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3374.939000	CPU-DPU (First step) Time (ms): 11730.456000	Secondth step Time (ms): 236.205000	Third step Time (ms): 175.232000	DPU-CPU Time (ms): 399.553000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3368.145000	CPU-DPU (First step) Time (ms): 11758.256000	Secondth step Time (ms): 236.075000	Third step Time (ms): 175.150000	DPU-CPU Time (ms): 390.089000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3359.486000	CPU-DPU (First step) Time (ms): 11574.707000	Secondth step Time (ms): 236.083000	Third step Time (ms): 175.164000	DPU-CPU Time (ms): 384.001000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3368.743000	CPU-DPU (First step) Time (ms): 11636.098000	Secondth step Time (ms): 236.079000	Third step Time (ms): 175.191000	DPU-CPU Time (ms): 402.474000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3381.455000	CPU-DPU (First step) Time (ms): 11460.983000	Secondth step Time (ms): 236.179000	Third step Time (ms): 175.149000	DPU-CPU Time (ms): 402.798000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3369.827000	CPU-DPU (First step) Time (ms): 11394.930000	Secondth step Time (ms): 236.044000	Third step Time (ms): 175.135000	DPU-CPU Time (ms): 389.666000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3359.455000	CPU-DPU (First step) Time (ms): 11680.378000	Secondth step Time (ms): 236.084000	Third step Time (ms): 175.227000	DPU-CPU Time (ms): 380.756000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3368.805000	CPU-DPU (First step) Time (ms): 11812.963000	Secondth step Time (ms): 236.152000	Third step Time (ms): 175.114000	DPU-CPU Time (ms): 401.903000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3357.053000	CPU-DPU (First step) Time (ms): 11676.790000	Secondth step Time (ms): 236.159000	Third step Time (ms): 175.159000	DPU-CPU Time (ms): 388.837000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3382.265000	CPU-DPU (First step) Time (ms): 11602.369000	Secondth step Time (ms): 236.169000	Third step Time (ms): 175.078000	DPU-CPU Time (ms): 390.762000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3353.368000	CPU-DPU (First step) Time (ms): 11573.533000	Secondth step Time (ms): 236.184000	Third step Time (ms): 175.091000	DPU-CPU Time (ms): 393.102000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3358.988000	CPU-DPU (First step) Time (ms): 11726.961000	Secondth step Time (ms): 236.176000	Third step Time (ms): 175.094000	DPU-CPU Time (ms): 392.951000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3363.091000	CPU-DPU (First step) Time (ms): 11744.521000	Secondth step Time (ms): 236.175000	Third step Time (ms): 175.170000	DPU-CPU Time (ms): 387.687000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3369.457000	CPU-DPU (First step) Time (ms): 11486.936000	Secondth step Time (ms): 236.184000	Third step Time (ms): 175.188000	DPU-CPU Time (ms): 390.349000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3354.103000	CPU-DPU (First step) Time (ms): 11317.032000	Secondth step Time (ms): 236.060000	Third step Time (ms): 175.149000	DPU-CPU Time (ms): 394.999000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3363.091000	CPU-DPU (First step) Time (ms): 11407.544000	Secondth step Time (ms): 236.215000	Third step Time (ms): 175.204000	DPU-CPU Time (ms): 391.268000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3365.422000	CPU-DPU (First step) Time (ms): 11897.402000	Secondth step Time (ms): 236.198000	Third step Time (ms): 175.162000	DPU-CPU Time (ms): 381.274000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3362.660000	CPU-DPU (First step) Time (ms): 11523.376000	Secondth step Time (ms): 236.077000	Third step Time (ms): 175.180000	DPU-CPU Time (ms): 380.296000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3366.314000	CPU-DPU (First step) Time (ms): 11567.869000	Secondth step Time (ms): 236.188000	Third step Time (ms): 175.207000	DPU-CPU Time (ms): 396.226000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3366.704000	CPU-DPU (First step) Time (ms): 11508.487000	Secondth step Time (ms): 236.079000	Third step Time (ms): 175.233000	DPU-CPU Time (ms): 393.451000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3365.322000	CPU-DPU (First step) Time (ms): 11418.384000	Secondth step Time (ms): 236.200000	Third step Time (ms): 175.174000	DPU-CPU Time (ms): 395.306000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3369.418000	CPU-DPU (First step) Time (ms): 11507.180000	Secondth step Time (ms): 236.210000	Third step Time (ms): 175.191000	DPU-CPU Time (ms): 395.168000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3354.767000	CPU-DPU (First step) Time (ms): 11337.506000	Secondth step Time (ms): 236.154000	Third step Time (ms): 175.083000	DPU-CPU Time (ms): 394.452000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3370.196000	CPU-DPU (First step) Time (ms): 11730.320000	Secondth step Time (ms): 236.166000	Third step Time (ms): 175.132000	DPU-CPU Time (ms): 392.666000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3352.872000	CPU-DPU (First step) Time (ms): 11876.213000	Secondth step Time (ms): 236.068000	Third step Time (ms): 175.145000	DPU-CPU Time (ms): 403.446000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3370.209000	CPU-DPU (First step) Time (ms): 11430.856000	Secondth step Time (ms): 236.155000	Third step Time (ms): 175.105000	DPU-CPU Time (ms): 385.145000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3366.235000	CPU-DPU (First step) Time (ms): 11544.564000	Secondth step Time (ms): 236.081000	Third step Time (ms): 175.193000	DPU-CPU Time (ms): 384.453000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3388.141000	CPU-DPU (First step) Time (ms): 11534.482000	Secondth step Time (ms): 236.047000	Third step Time (ms): 175.106000	DPU-CPU Time (ms): 389.262000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3522.486000	CPU-DPU (First step) Time (ms): 11310.311000	Secondth step Time (ms): 236.207000	Third step Time (ms): 175.185000	DPU-CPU Time (ms): 385.994000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3388.672000	CPU-DPU (First step) Time (ms): 11646.920000	Secondth step Time (ms): 236.211000	Third step Time (ms): 175.157000	DPU-CPU Time (ms): 402.455000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3371.120000	CPU-DPU (First step) Time (ms): 11635.322000	Secondth step Time (ms): 236.056000	Third step Time (ms): 175.126000	DPU-CPU Time (ms): 380.653000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3383.004000	CPU-DPU (First step) Time (ms): 11457.052000	Secondth step Time (ms): 236.166000	Third step Time (ms): 175.107000	DPU-CPU Time (ms): 399.438000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3370.784000	CPU-DPU (First step) Time (ms): 11289.964000	Secondth step Time (ms): 236.150000	Third step Time (ms): 175.089000	DPU-CPU Time (ms): 394.164000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3382.258000	CPU-DPU (First step) Time (ms): 11616.383000	Secondth step Time (ms): 236.060000	Third step Time (ms): 175.112000	DPU-CPU Time (ms): 408.402000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3376.097000	CPU-DPU (First step) Time (ms): 11449.253000	Secondth step Time (ms): 236.190000	Third step Time (ms): 175.184000	DPU-CPU Time (ms): 384.553000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3381.326000	CPU-DPU (First step) Time (ms): 11553.299000	Secondth step Time (ms): 236.183000	Third step Time (ms): 175.105000	DPU-CPU Time (ms): 389.259000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3348.505000	CPU-DPU (First step) Time (ms): 11162.788000	Secondth step Time (ms): 236.078000	Third step Time (ms): 175.214000	DPU-CPU Time (ms): 378.148000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3380.186000	CPU-DPU (First step) Time (ms): 11624.617000	Secondth step Time (ms): 236.194000	Third step Time (ms): 175.179000	DPU-CPU Time (ms): 379.481000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3368.742000	CPU-DPU (First step) Time (ms): 11479.043000	Secondth step Time (ms): 236.208000	Third step Time (ms): 175.242000	DPU-CPU Time (ms): 389.136000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3380.557000	CPU-DPU (First step) Time (ms): 11669.015000	Secondth step Time (ms): 236.059000	Third step Time (ms): 175.201000	DPU-CPU Time (ms): 387.966000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3363.056000	CPU-DPU (First step) Time (ms): 11495.155000	Secondth step Time (ms): 236.160000	Third step Time (ms): 175.065000	DPU-CPU Time (ms): 381.130000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3382.069000	CPU-DPU (First step) Time (ms): 11496.150000	Secondth step Time (ms): 236.175000	Third step Time (ms): 175.107000	DPU-CPU Time (ms): 379.334000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3375.178000	CPU-DPU (First step) Time (ms): 11400.953000	Secondth step Time (ms): 236.082000	Third step Time (ms): 175.231000	DPU-CPU Time (ms): 387.651000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3400.072000	CPU-DPU (First step) Time (ms): 11575.340000	Secondth step Time (ms): 236.091000	Third step Time (ms): 175.217000	DPU-CPU Time (ms): 395.740000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3372.840000	CPU-DPU (First step) Time (ms): 11511.392000	Secondth step Time (ms): 236.215000	Third step Time (ms): 175.221000	DPU-CPU Time (ms): 393.670000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3365.001000	CPU-DPU (First step) Time (ms): 11484.333000	Secondth step Time (ms): 236.210000	Third step Time (ms): 175.230000	DPU-CPU Time (ms): 399.951000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3364.209000	CPU-DPU (First step) Time (ms): 11605.120000	Secondth step Time (ms): 236.172000	Third step Time (ms): 175.191000	DPU-CPU Time (ms): 387.868000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3374.187000	CPU-DPU (First step) Time (ms): 11658.761000	Secondth step Time (ms): 236.151000	Third step Time (ms): 175.050000	DPU-CPU Time (ms): 379.142000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3368.247000	CPU-DPU (First step) Time (ms): 11887.333000	Secondth step Time (ms): 236.201000	Third step Time (ms): 175.163000	DPU-CPU Time (ms): 384.715000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3372.287000	CPU-DPU (First step) Time (ms): 11602.563000	Secondth step Time (ms): 236.153000	Third step Time (ms): 175.139000	DPU-CPU Time (ms): 382.575000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3360.180000	CPU-DPU (First step) Time (ms): 11425.956000	Secondth step Time (ms): 236.190000	Third step Time (ms): 175.128000	DPU-CPU Time (ms): 395.629000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3797.746000	CPU-DPU (First step) Time (ms): 9892.830000	Secondth step Time (ms): 236.022000	Third step Time (ms): 175.077000	DPU-CPU Time (ms): 383.464000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3322.080000	CPU-DPU (First step) Time (ms): 11060.379000	Secondth step Time (ms): 236.048000	Third step Time (ms): 175.107000	DPU-CPU Time (ms): 395.884000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3324.401000	CPU-DPU (First step) Time (ms): 11568.320000	Secondth step Time (ms): 236.157000	Third step Time (ms): 175.158000	DPU-CPU Time (ms): 378.790000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3317.992000	CPU-DPU (First step) Time (ms): 11415.128000	Secondth step Time (ms): 236.159000	Third step Time (ms): 175.125000	DPU-CPU Time (ms): 401.145000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3306.864000	CPU-DPU (First step) Time (ms): 11438.467000	Secondth step Time (ms): 236.171000	Third step Time (ms): 175.084000	DPU-CPU Time (ms): 383.725000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3316.545000	CPU-DPU (First step) Time (ms): 11442.513000	Secondth step Time (ms): 236.219000	Third step Time (ms): 175.205000	DPU-CPU Time (ms): 411.057000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3338.641000	CPU-DPU (First step) Time (ms): 11262.636000	Secondth step Time (ms): 236.201000	Third step Time (ms): 175.172000	DPU-CPU Time (ms): 391.214000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3312.499000	CPU-DPU (First step) Time (ms): 11398.519000	Secondth step Time (ms): 236.203000	Third step Time (ms): 175.193000	DPU-CPU Time (ms): 389.263000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3333.299000	CPU-DPU (First step) Time (ms): 11309.910000	Secondth step Time (ms): 236.076000	Third step Time (ms): 175.148000	DPU-CPU Time (ms): 406.620000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3319.942000	CPU-DPU (First step) Time (ms): 11409.489000	Secondth step Time (ms): 236.207000	Third step Time (ms): 175.193000	DPU-CPU Time (ms): 379.787000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3331.560000	CPU-DPU (First step) Time (ms): 11491.565000	Secondth step Time (ms): 236.059000	Third step Time (ms): 175.117000	DPU-CPU Time (ms): 381.196000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3322.482000	CPU-DPU (First step) Time (ms): 11473.951000	Secondth step Time (ms): 236.209000	Third step Time (ms): 175.195000	DPU-CPU Time (ms): 390.346000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3327.912000	CPU-DPU (First step) Time (ms): 11405.320000	Secondth step Time (ms): 236.060000	Third step Time (ms): 175.156000	DPU-CPU Time (ms): 384.709000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3314.965000	CPU-DPU (First step) Time (ms): 11671.534000	Secondth step Time (ms): 236.062000	Third step Time (ms): 175.109000	DPU-CPU Time (ms): 384.033000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3332.510000	CPU-DPU (First step) Time (ms): 11324.000000	Secondth step Time (ms): 236.078000	Third step Time (ms): 175.218000	DPU-CPU Time (ms): 384.311000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3312.583000	CPU-DPU (First step) Time (ms): 11655.213000	Secondth step Time (ms): 236.075000	Third step Time (ms): 175.170000	DPU-CPU Time (ms): 392.906000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3325.179000	CPU-DPU (First step) Time (ms): 11390.395000	Secondth step Time (ms): 236.122000	Third step Time (ms): 175.099000	DPU-CPU Time (ms): 395.796000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3317.548000	CPU-DPU (First step) Time (ms): 11289.962000	Secondth step Time (ms): 236.112000	Third step Time (ms): 175.227000	DPU-CPU Time (ms): 403.477000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3309.701000	CPU-DPU (First step) Time (ms): 11765.260000	Secondth step Time (ms): 236.074000	Third step Time (ms): 175.133000	DPU-CPU Time (ms): 394.047000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3293.546000	CPU-DPU (First step) Time (ms): 11766.259000	Secondth step Time (ms): 236.170000	Third step Time (ms): 175.088000	DPU-CPU Time (ms): 396.226000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3336.660000	CPU-DPU (First step) Time (ms): 11153.890000	Secondth step Time (ms): 236.041000	Third step Time (ms): 175.145000	DPU-CPU Time (ms): 409.471000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3299.018000	CPU-DPU (First step) Time (ms): 11482.722000	Secondth step Time (ms): 236.212000	Third step Time (ms): 175.208000	DPU-CPU Time (ms): 390.667000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3325.726000	CPU-DPU (First step) Time (ms): 11853.845000	Secondth step Time (ms): 236.205000	Third step Time (ms): 175.243000	DPU-CPU Time (ms): 401.687000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3314.302000	CPU-DPU (First step) Time (ms): 11627.489000	Secondth step Time (ms): 236.178000	Third step Time (ms): 175.094000	DPU-CPU Time (ms): 407.406000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3310.321000	CPU-DPU (First step) Time (ms): 11521.954000	Secondth step Time (ms): 236.194000	Third step Time (ms): 175.207000	DPU-CPU Time (ms): 399.397000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3335.845000	CPU-DPU (First step) Time (ms): 11219.044000	Secondth step Time (ms): 236.181000	Third step Time (ms): 175.102000	DPU-CPU Time (ms): 392.992000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3334.767000	CPU-DPU (First step) Time (ms): 11668.456000	Secondth step Time (ms): 236.080000	Third step Time (ms): 175.215000	DPU-CPU Time (ms): 403.330000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3335.590000	CPU-DPU (First step) Time (ms): 11471.111000	Secondth step Time (ms): 236.151000	Third step Time (ms): 175.058000	DPU-CPU Time (ms): 405.909000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3309.874000	CPU-DPU (First step) Time (ms): 11571.686000	Secondth step Time (ms): 236.068000	Third step Time (ms): 175.154000	DPU-CPU Time (ms): 408.833000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3302.159000	CPU-DPU (First step) Time (ms): 11460.989000	Secondth step Time (ms): 236.183000	Third step Time (ms): 175.131000	DPU-CPU Time (ms): 387.653000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3325.314000	CPU-DPU (First step) Time (ms): 11577.785000	Secondth step Time (ms): 236.182000	Third step Time (ms): 175.135000	DPU-CPU Time (ms): 382.494000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3318.609000	CPU-DPU (First step) Time (ms): 11432.116000	Secondth step Time (ms): 236.090000	Third step Time (ms): 175.231000	DPU-CPU Time (ms): 390.422000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3317.015000	CPU-DPU (First step) Time (ms): 11709.273000	Secondth step Time (ms): 236.177000	Third step Time (ms): 175.122000	DPU-CPU Time (ms): 390.907000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3330.971000	CPU-DPU (First step) Time (ms): 11222.072000	Secondth step Time (ms): 236.130000	Third step Time (ms): 175.177000	DPU-CPU Time (ms): 396.872000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3320.159000	CPU-DPU (First step) Time (ms): 11129.685000	Secondth step Time (ms): 236.198000	Third step Time (ms): 175.187000	DPU-CPU Time (ms): 409.856000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3314.389000	CPU-DPU (First step) Time (ms): 11149.809000	Secondth step Time (ms): 236.119000	Third step Time (ms): 175.175000	DPU-CPU Time (ms): 393.924000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3291.591000	CPU-DPU (First step) Time (ms): 11649.122000	Secondth step Time (ms): 236.164000	Third step Time (ms): 175.083000	DPU-CPU Time (ms): 375.839000	[[32mOK[0m] Outputs are equal
+Load input data (step)
+Run secondth step on DPU(s) 
+Run third step on DPU(s) 
+Retrieve results
+CPU Time (ms): 3321.274000	CPU-DPU (First step) Time (ms): 11241.791000	Secondth step Time (ms): 236.083000	Third step Time (ms): 175.177000	DPU-CPU Time (ms): 392.742000	[[32mOK[0m] Outputs are equal

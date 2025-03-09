@@ -1,0 +1,200 @@
+CPU version Time (ms): 98.143000	CPU-DPU Time (ms): 220.061000	DPU Kernel Time (ms): 1420.400000	Inter-DPU Time (ms): 0.887000	DPU-CPU Time (ms): 341.091000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.751000	CPU-DPU Time (ms): 220.510000	DPU Kernel Time (ms): 1420.420000	Inter-DPU Time (ms): 0.896000	DPU-CPU Time (ms): 345.534000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.456000	CPU-DPU Time (ms): 220.937000	DPU Kernel Time (ms): 1420.368000	Inter-DPU Time (ms): 0.884000	DPU-CPU Time (ms): 343.809000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.683000	CPU-DPU Time (ms): 219.609000	DPU Kernel Time (ms): 1420.370000	Inter-DPU Time (ms): 0.446000	DPU-CPU Time (ms): 345.281000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.047000	CPU-DPU Time (ms): 220.581000	DPU Kernel Time (ms): 1420.369000	Inter-DPU Time (ms): 0.447000	DPU-CPU Time (ms): 346.257000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 91.739000	CPU-DPU Time (ms): 218.618000	DPU Kernel Time (ms): 1420.292000	Inter-DPU Time (ms): 0.444000	DPU-CPU Time (ms): 344.599000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.089000	CPU-DPU Time (ms): 222.886000	DPU Kernel Time (ms): 1420.400000	Inter-DPU Time (ms): 0.442000	DPU-CPU Time (ms): 340.797000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.172000	CPU-DPU Time (ms): 229.356000	DPU Kernel Time (ms): 1420.376000	Inter-DPU Time (ms): 0.874000	DPU-CPU Time (ms): 342.900000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.596000	CPU-DPU Time (ms): 222.772000	DPU Kernel Time (ms): 1420.402000	Inter-DPU Time (ms): 0.898000	DPU-CPU Time (ms): 344.514000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.405000	CPU-DPU Time (ms): 217.418000	DPU Kernel Time (ms): 1420.329000	Inter-DPU Time (ms): 0.890000	DPU-CPU Time (ms): 342.746000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.924000	CPU-DPU Time (ms): 221.370000	DPU Kernel Time (ms): 1420.315000	Inter-DPU Time (ms): 0.903000	DPU-CPU Time (ms): 347.786000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.392000	CPU-DPU Time (ms): 221.259000	DPU Kernel Time (ms): 1420.376000	Inter-DPU Time (ms): 0.441000	DPU-CPU Time (ms): 345.981000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.573000	CPU-DPU Time (ms): 219.769000	DPU Kernel Time (ms): 1420.353000	Inter-DPU Time (ms): 0.880000	DPU-CPU Time (ms): 341.594000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.231000	CPU-DPU Time (ms): 232.314000	DPU Kernel Time (ms): 1420.376000	Inter-DPU Time (ms): 0.890000	DPU-CPU Time (ms): 346.894000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.946000	CPU-DPU Time (ms): 221.832000	DPU Kernel Time (ms): 1420.334000	Inter-DPU Time (ms): 0.890000	DPU-CPU Time (ms): 346.384000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 91.536000	CPU-DPU Time (ms): 218.967000	DPU Kernel Time (ms): 1420.358000	Inter-DPU Time (ms): 0.458000	DPU-CPU Time (ms): 349.130000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.847000	CPU-DPU Time (ms): 219.283000	DPU Kernel Time (ms): 1420.340000	Inter-DPU Time (ms): 0.444000	DPU-CPU Time (ms): 347.085000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 93.393000	CPU-DPU Time (ms): 221.779000	DPU Kernel Time (ms): 1420.389000	Inter-DPU Time (ms): 0.881000	DPU-CPU Time (ms): 348.819000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.848000	CPU-DPU Time (ms): 217.449000	DPU Kernel Time (ms): 1420.336000	Inter-DPU Time (ms): 0.887000	DPU-CPU Time (ms): 346.324000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.153000	CPU-DPU Time (ms): 218.886000	DPU Kernel Time (ms): 1420.392000	Inter-DPU Time (ms): 0.441000	DPU-CPU Time (ms): 342.182000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.178000	CPU-DPU Time (ms): 221.985000	DPU Kernel Time (ms): 1420.364000	Inter-DPU Time (ms): 0.884000	DPU-CPU Time (ms): 347.556000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.245000	CPU-DPU Time (ms): 221.877000	DPU Kernel Time (ms): 1420.366000	Inter-DPU Time (ms): 0.445000	DPU-CPU Time (ms): 346.540000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.524000	CPU-DPU Time (ms): 220.538000	DPU Kernel Time (ms): 1420.321000	Inter-DPU Time (ms): 0.449000	DPU-CPU Time (ms): 349.500000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.735000	CPU-DPU Time (ms): 220.847000	DPU Kernel Time (ms): 1420.339000	Inter-DPU Time (ms): 0.880000	DPU-CPU Time (ms): 340.455000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.074000	CPU-DPU Time (ms): 218.057000	DPU Kernel Time (ms): 1420.375000	Inter-DPU Time (ms): 0.898000	DPU-CPU Time (ms): 343.293000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.639000	CPU-DPU Time (ms): 222.166000	DPU Kernel Time (ms): 1420.372000	Inter-DPU Time (ms): 0.879000	DPU-CPU Time (ms): 342.339000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.832000	CPU-DPU Time (ms): 219.562000	DPU Kernel Time (ms): 1420.379000	Inter-DPU Time (ms): 0.902000	DPU-CPU Time (ms): 345.168000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.224000	CPU-DPU Time (ms): 220.324000	DPU Kernel Time (ms): 1420.336000	Inter-DPU Time (ms): 0.885000	DPU-CPU Time (ms): 341.264000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.039000	CPU-DPU Time (ms): 221.124000	DPU Kernel Time (ms): 1420.337000	Inter-DPU Time (ms): 0.906000	DPU-CPU Time (ms): 345.228000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.163000	CPU-DPU Time (ms): 219.906000	DPU Kernel Time (ms): 1420.371000	Inter-DPU Time (ms): 0.890000	DPU-CPU Time (ms): 345.037000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.856000	CPU-DPU Time (ms): 221.088000	DPU Kernel Time (ms): 1420.333000	Inter-DPU Time (ms): 0.896000	DPU-CPU Time (ms): 348.279000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.891000	CPU-DPU Time (ms): 222.573000	DPU Kernel Time (ms): 1420.341000	Inter-DPU Time (ms): 0.442000	DPU-CPU Time (ms): 347.207000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.993000	CPU-DPU Time (ms): 218.818000	DPU Kernel Time (ms): 1420.375000	Inter-DPU Time (ms): 0.903000	DPU-CPU Time (ms): 342.164000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.735000	CPU-DPU Time (ms): 222.092000	DPU Kernel Time (ms): 1420.336000	Inter-DPU Time (ms): 0.881000	DPU-CPU Time (ms): 344.061000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.686000	CPU-DPU Time (ms): 221.142000	DPU Kernel Time (ms): 1420.386000	Inter-DPU Time (ms): 0.897000	DPU-CPU Time (ms): 346.725000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.848000	CPU-DPU Time (ms): 221.832000	DPU Kernel Time (ms): 1420.339000	Inter-DPU Time (ms): 0.882000	DPU-CPU Time (ms): 347.936000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 93.471000	CPU-DPU Time (ms): 219.634000	DPU Kernel Time (ms): 1420.338000	Inter-DPU Time (ms): 0.878000	DPU-CPU Time (ms): 345.016000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.834000	CPU-DPU Time (ms): 221.496000	DPU Kernel Time (ms): 1420.328000	Inter-DPU Time (ms): 0.446000	DPU-CPU Time (ms): 346.994000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.229000	CPU-DPU Time (ms): 219.973000	DPU Kernel Time (ms): 1420.287000	Inter-DPU Time (ms): 0.892000	DPU-CPU Time (ms): 348.725000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.329000	CPU-DPU Time (ms): 218.625000	DPU Kernel Time (ms): 1420.377000	Inter-DPU Time (ms): 0.447000	DPU-CPU Time (ms): 348.715000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.000000	CPU-DPU Time (ms): 220.837000	DPU Kernel Time (ms): 1420.391000	Inter-DPU Time (ms): 0.887000	DPU-CPU Time (ms): 345.697000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.843000	CPU-DPU Time (ms): 221.377000	DPU Kernel Time (ms): 1420.368000	Inter-DPU Time (ms): 0.905000	DPU-CPU Time (ms): 346.794000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.263000	CPU-DPU Time (ms): 221.022000	DPU Kernel Time (ms): 1420.317000	Inter-DPU Time (ms): 0.901000	DPU-CPU Time (ms): 345.776000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 93.477000	CPU-DPU Time (ms): 217.099000	DPU Kernel Time (ms): 1420.279000	Inter-DPU Time (ms): 0.889000	DPU-CPU Time (ms): 340.381000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.255000	CPU-DPU Time (ms): 230.666000	DPU Kernel Time (ms): 1420.341000	Inter-DPU Time (ms): 0.445000	DPU-CPU Time (ms): 344.092000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 93.040000	CPU-DPU Time (ms): 221.684000	DPU Kernel Time (ms): 1420.398000	Inter-DPU Time (ms): 0.454000	DPU-CPU Time (ms): 347.838000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.346000	CPU-DPU Time (ms): 217.813000	DPU Kernel Time (ms): 1420.395000	Inter-DPU Time (ms): 0.449000	DPU-CPU Time (ms): 345.204000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.093000	CPU-DPU Time (ms): 230.520000	DPU Kernel Time (ms): 1420.351000	Inter-DPU Time (ms): 0.880000	DPU-CPU Time (ms): 342.613000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.998000	CPU-DPU Time (ms): 226.424000	DPU Kernel Time (ms): 1420.371000	Inter-DPU Time (ms): 0.448000	DPU-CPU Time (ms): 344.443000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.185000	CPU-DPU Time (ms): 216.868000	DPU Kernel Time (ms): 1420.379000	Inter-DPU Time (ms): 0.438000	DPU-CPU Time (ms): 343.611000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.368000	CPU-DPU Time (ms): 226.980000	DPU Kernel Time (ms): 1420.318000	Inter-DPU Time (ms): 0.446000	DPU-CPU Time (ms): 344.121000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.676000	CPU-DPU Time (ms): 222.139000	DPU Kernel Time (ms): 1420.330000	Inter-DPU Time (ms): 0.442000	DPU-CPU Time (ms): 346.399000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.543000	CPU-DPU Time (ms): 220.885000	DPU Kernel Time (ms): 1420.353000	Inter-DPU Time (ms): 0.903000	DPU-CPU Time (ms): 346.192000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.019000	CPU-DPU Time (ms): 219.049000	DPU Kernel Time (ms): 1420.397000	Inter-DPU Time (ms): 0.891000	DPU-CPU Time (ms): 348.508000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.877000	CPU-DPU Time (ms): 220.918000	DPU Kernel Time (ms): 1420.340000	Inter-DPU Time (ms): 0.888000	DPU-CPU Time (ms): 344.662000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.037000	CPU-DPU Time (ms): 219.750000	DPU Kernel Time (ms): 1421.510000	Inter-DPU Time (ms): 0.879000	DPU-CPU Time (ms): 342.983000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.369000	CPU-DPU Time (ms): 231.872000	DPU Kernel Time (ms): 1420.410000	Inter-DPU Time (ms): 0.894000	DPU-CPU Time (ms): 344.839000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.334000	CPU-DPU Time (ms): 221.952000	DPU Kernel Time (ms): 1420.390000	Inter-DPU Time (ms): 0.432000	DPU-CPU Time (ms): 348.019000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.858000	CPU-DPU Time (ms): 219.303000	DPU Kernel Time (ms): 1420.314000	Inter-DPU Time (ms): 0.888000	DPU-CPU Time (ms): 342.900000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.025000	CPU-DPU Time (ms): 218.947000	DPU Kernel Time (ms): 1420.331000	Inter-DPU Time (ms): 0.903000	DPU-CPU Time (ms): 346.913000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.284000	CPU-DPU Time (ms): 221.497000	DPU Kernel Time (ms): 1420.364000	Inter-DPU Time (ms): 0.880000	DPU-CPU Time (ms): 347.346000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 99.954000	CPU-DPU Time (ms): 219.640000	DPU Kernel Time (ms): 1420.366000	Inter-DPU Time (ms): 0.885000	DPU-CPU Time (ms): 347.705000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.112000	CPU-DPU Time (ms): 223.855000	DPU Kernel Time (ms): 1420.314000	Inter-DPU Time (ms): 0.902000	DPU-CPU Time (ms): 342.715000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.133000	CPU-DPU Time (ms): 219.731000	DPU Kernel Time (ms): 1420.355000	Inter-DPU Time (ms): 0.456000	DPU-CPU Time (ms): 344.849000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.046000	CPU-DPU Time (ms): 222.048000	DPU Kernel Time (ms): 1420.351000	Inter-DPU Time (ms): 0.881000	DPU-CPU Time (ms): 347.422000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.536000	CPU-DPU Time (ms): 221.733000	DPU Kernel Time (ms): 1420.363000	Inter-DPU Time (ms): 0.890000	DPU-CPU Time (ms): 344.361000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.621000	CPU-DPU Time (ms): 221.202000	DPU Kernel Time (ms): 1420.416000	Inter-DPU Time (ms): 0.878000	DPU-CPU Time (ms): 344.223000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.377000	CPU-DPU Time (ms): 219.527000	DPU Kernel Time (ms): 1420.374000	Inter-DPU Time (ms): 0.885000	DPU-CPU Time (ms): 341.573000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.517000	CPU-DPU Time (ms): 217.797000	DPU Kernel Time (ms): 1420.375000	Inter-DPU Time (ms): 0.902000	DPU-CPU Time (ms): 342.285000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.810000	CPU-DPU Time (ms): 221.777000	DPU Kernel Time (ms): 1420.392000	Inter-DPU Time (ms): 0.447000	DPU-CPU Time (ms): 349.381000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.157000	CPU-DPU Time (ms): 220.479000	DPU Kernel Time (ms): 1420.385000	Inter-DPU Time (ms): 0.881000	DPU-CPU Time (ms): 347.059000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.864000	CPU-DPU Time (ms): 221.255000	DPU Kernel Time (ms): 1420.326000	Inter-DPU Time (ms): 0.869000	DPU-CPU Time (ms): 343.595000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.868000	CPU-DPU Time (ms): 220.039000	DPU Kernel Time (ms): 1421.530000	Inter-DPU Time (ms): 0.869000	DPU-CPU Time (ms): 344.024000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.261000	CPU-DPU Time (ms): 218.900000	DPU Kernel Time (ms): 1420.346000	Inter-DPU Time (ms): 0.441000	DPU-CPU Time (ms): 342.525000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.632000	CPU-DPU Time (ms): 220.210000	DPU Kernel Time (ms): 1420.400000	Inter-DPU Time (ms): 0.893000	DPU-CPU Time (ms): 345.941000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.600000	CPU-DPU Time (ms): 220.393000	DPU Kernel Time (ms): 1420.398000	Inter-DPU Time (ms): 0.887000	DPU-CPU Time (ms): 347.611000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.247000	CPU-DPU Time (ms): 223.933000	DPU Kernel Time (ms): 1420.361000	Inter-DPU Time (ms): 0.900000	DPU-CPU Time (ms): 344.411000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.835000	CPU-DPU Time (ms): 222.341000	DPU Kernel Time (ms): 1420.361000	Inter-DPU Time (ms): 0.454000	DPU-CPU Time (ms): 344.370000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.483000	CPU-DPU Time (ms): 226.739000	DPU Kernel Time (ms): 1420.331000	Inter-DPU Time (ms): 0.444000	DPU-CPU Time (ms): 343.942000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.040000	CPU-DPU Time (ms): 219.063000	DPU Kernel Time (ms): 1420.324000	Inter-DPU Time (ms): 0.890000	DPU-CPU Time (ms): 345.827000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 93.828000	CPU-DPU Time (ms): 219.926000	DPU Kernel Time (ms): 1420.356000	Inter-DPU Time (ms): 0.870000	DPU-CPU Time (ms): 341.479000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.656000	CPU-DPU Time (ms): 230.690000	DPU Kernel Time (ms): 1420.298000	Inter-DPU Time (ms): 0.902000	DPU-CPU Time (ms): 357.880000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.389000	CPU-DPU Time (ms): 219.640000	DPU Kernel Time (ms): 1420.390000	Inter-DPU Time (ms): 0.893000	DPU-CPU Time (ms): 343.789000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.507000	CPU-DPU Time (ms): 218.248000	DPU Kernel Time (ms): 1420.365000	Inter-DPU Time (ms): 0.893000	DPU-CPU Time (ms): 346.596000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.132000	CPU-DPU Time (ms): 228.693000	DPU Kernel Time (ms): 1420.342000	Inter-DPU Time (ms): 0.898000	DPU-CPU Time (ms): 342.580000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.009000	CPU-DPU Time (ms): 220.544000	DPU Kernel Time (ms): 1420.426000	Inter-DPU Time (ms): 0.903000	DPU-CPU Time (ms): 348.098000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.241000	CPU-DPU Time (ms): 221.208000	DPU Kernel Time (ms): 1420.375000	Inter-DPU Time (ms): 0.894000	DPU-CPU Time (ms): 348.731000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 92.005000	CPU-DPU Time (ms): 227.559000	DPU Kernel Time (ms): 1420.290000	Inter-DPU Time (ms): 0.896000	DPU-CPU Time (ms): 341.049000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.801000	CPU-DPU Time (ms): 220.135000	DPU Kernel Time (ms): 1420.338000	Inter-DPU Time (ms): 0.444000	DPU-CPU Time (ms): 344.785000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.912000	CPU-DPU Time (ms): 218.916000	DPU Kernel Time (ms): 1420.384000	Inter-DPU Time (ms): 0.894000	DPU-CPU Time (ms): 347.133000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.563000	CPU-DPU Time (ms): 230.348000	DPU Kernel Time (ms): 1420.376000	Inter-DPU Time (ms): 0.896000	DPU-CPU Time (ms): 344.403000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 96.476000	CPU-DPU Time (ms): 221.210000	DPU Kernel Time (ms): 1420.373000	Inter-DPU Time (ms): 0.437000	DPU-CPU Time (ms): 346.579000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.803000	CPU-DPU Time (ms): 217.513000	DPU Kernel Time (ms): 1420.336000	Inter-DPU Time (ms): 0.448000	DPU-CPU Time (ms): 347.612000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 98.296000	CPU-DPU Time (ms): 221.239000	DPU Kernel Time (ms): 1420.369000	Inter-DPU Time (ms): 0.447000	DPU-CPU Time (ms): 345.950000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.165000	CPU-DPU Time (ms): 220.973000	DPU Kernel Time (ms): 1420.329000	Inter-DPU Time (ms): 0.888000	DPU-CPU Time (ms): 346.275000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 95.048000	CPU-DPU Time (ms): 218.463000	DPU Kernel Time (ms): 1420.366000	Inter-DPU Time (ms): 0.894000	DPU-CPU Time (ms): 347.780000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.464000	CPU-DPU Time (ms): 218.993000	DPU Kernel Time (ms): 1420.367000	Inter-DPU Time (ms): 0.888000	DPU-CPU Time (ms): 342.655000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.406000	CPU-DPU Time (ms): 218.419000	DPU Kernel Time (ms): 1420.384000	Inter-DPU Time (ms): 0.879000	DPU-CPU Time (ms): 348.566000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 94.842000	CPU-DPU Time (ms): 219.534000	DPU Kernel Time (ms): 1420.385000	Inter-DPU Time (ms): 0.442000	DPU-CPU Time (ms): 343.583000	
+[[32mOK[0m] Outputs are equal
+CPU version Time (ms): 97.205000	CPU-DPU Time (ms): 227.952000	DPU Kernel Time (ms): 1420.382000	Inter-DPU Time (ms): 0.889000	DPU-CPU Time (ms): 343.343000	
+[[32mOK[0m] Outputs are equal
