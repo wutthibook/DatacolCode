@@ -43,18 +43,22 @@ int main() {
                 switch(turn){
                     case 0:
                     sum1+=atof(buffer);
+                    printf("%.2f,",atof(buffer));
                     ++turn;
                     break;
                 case 1:
                     sum2+=atof(buffer);
+                    printf("%.2f,",atof(buffer));
                     ++turn;
                     break;
                 case 2:
                     sum3+=atof(buffer);
+                    printf("%.2f,",atof(buffer));
                     ++turn;
                     break;
                 case 3:
                     sum4+=atof(buffer);
+                    printf("%.2f,",atof(buffer));
                     turn=0;
                     printf("%.2f\n",sum);
                     sum = 0.0;
